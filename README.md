@@ -20,7 +20,7 @@ This project implements a predictive model for absenteeism, utilizing logistic r
 ### Usage:
 - `model` and `scaler` are loaded in the `absenteeism_model` class to make predictions on new data.
 - `Absenteeism_preprocessed.csv` demonstrates the processed dataset used for training and testing the model.
-- 
+  
 ## Project Structure
 
 ### 1. Data Preparation (`Data preparation.ipynb`)
