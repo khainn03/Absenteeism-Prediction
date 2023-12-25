@@ -8,18 +8,17 @@ This project implements a predictive model for absenteeism, utilizing logistic r
 ### Reference and Example Datasets:
 - **Original Dataset (`Absenteeism_data.csv`):** The raw absenteeism dataset used for the project.
 
-- **New Dataset for Prediction (`Absenteeism_new_data.csv`):** A sample dataset provided for testing the trained logistic regression model. It is used to demonstrate the process of making predictions on new data using the implemented model. 
+- **New Dataset for Prediction (`Absenteeism_new_data.csv`):** A sample dataset provided for testing the trained logistic regression model, sharing the same structure as the original dataset. It is used to demonstrate the process of making predictions on new data using the implemented model. 
 
 ## Project Output
 
 ### Files Included:
-1. **Model and Scaler:** The trained logistic regression model (`model`) and its corresponding scaler (`scaler`) are included. These files are essential for making predictions on new data.
-
-2. **Preprocessed Data:** The preprocessed dataset (`Absenteeism_preprocessed.csv`) is provided, which is used to train and test the model. It is formatted and scaled appropriately for input into the logistic regression model.
+1. **Preprocessed Data:** The pre-processed dataset (`Absenteeism_preprocessed.csv`) produced from data preparation is provided, which is used to train and test the model.
+2. **Model and Scaler:** The trained logistic regression model (`model`) and its corresponding scaler (`scaler`) are pickled from the model training and also included in this repository. These files are essential for making predictions on new data.
 
 ### Usage:
-- `model` and `scaler` are loaded in the `absenteeism_model` class to make predictions on new data.
 - `Absenteeism_preprocessed.csv` demonstrates the processed dataset used for training and testing the model.
+-  `model` and `scaler` are loaded in the `absenteeism_model` class in the absenteeism_module to make predictions on new data.
   
 ## Project Structure
 
