@@ -8,7 +8,7 @@ This project implements a predictive model for absenteeism, utilizing logistic r
 ### Reference and Example Datasets:
 - **Original Dataset (`Absenteeism_data.csv`):** The raw absenteeism dataset used for the project.
 
-- **New Dataset for Prediction (`Absenteeism_new_data.csv`):** A sample new dataset provided for demonstration purposes. It showcases how to structure data for predictions using the trained model
+- **New Dataset for Prediction (`Absenteeism_new_data.csv`):** A sample dataset provided for testing the trained logistic regression model. It is used to demonstrate the process of making predictions on new data using the implemented model. 
 
 ## Project Output
 
