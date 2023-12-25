@@ -1,10 +1,26 @@
 # Absenteeism Prediction Project
 
 ## Project Overview
-This project implements a predictive model for absenteeism, utilizing logistic regression. The model predicts whether an employee is likely to be absent from work for an excessive amount of time. The implementation includes data preprocessing, model training, and deployment for making predictions on new data. Additionally, SQL integration optimizes data management by storing predicted outputs in a MySQL database, streamlining analysis and providing a centralized repository for efficient data retrieval.
+This project implements a predictive model for absenteeism, utilizing logistic regression. The model predicts whether an employee is likely to be absent from work for an excessive amount of time. The implementation includes data preprocessing, model training, and deployment for making predictions on new data. Additionally, SQL integration optimizes data management by storing predicted outputs in a MySQL database, streamlining analysis, and providing a centralized repository for efficient data retrieval.
 
+## Data Sources
 
+### Reference and Example Datasets:
+- **Original Dataset (`Absenteeism_data.csv`):** The raw absenteeism dataset used for the project.
 
+- **New Dataset for Prediction (`Absenteeism_new_data.csv`):** A sample new dataset provided for demonstration purposes. It showcases how to structure data for predictions using the trained model
+
+## Project Output
+
+### Files Included:
+1. **Model and Scaler:** The trained logistic regression model (`model`) and its corresponding scaler (`scaler`) are included. These files are essential for making predictions on new data.
+
+2. **Preprocessed Data:** The preprocessed dataset (`Absenteeism_preprocessed.csv`) is provided, which is used to train and test the model. It is formatted and scaled appropriately for input into the logistic regression model.
+
+### Usage:
+- `model` and `scaler` are loaded in the `absenteeism_model` class to make predictions on new data.
+- `Absenteeism_preprocessed.csv` demonstrates the processed dataset used for training and testing the model.
+- 
 ## Project Structure
 
 ### 1. Data Preparation (`Data preparation.ipynb`)
