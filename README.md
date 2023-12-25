@@ -61,9 +61,9 @@ This project implements a predictive model for absenteeism, utilizing logistic r
     - Define methods to load, clean, and preprocess new data.
     - Implement functions to output predicted probabilities, categories, and detailed outputs.
 
-### 4. Model Testing on New Data & Database Integration (`NewDataOnTrainedModel & MySQL Integration.ipynb`)
+### 4. Model Testing & Database Integration (`Model Predictions & MySQL Integration.ipynb`)
 
-- **Objective:** Integrate SQL for storing predicted outputs.
+- **Objective:** Test model's predictions on new data & Integrate SQL for storing predicted outputs.
 
 - **Steps:**
   - Import the `absenteeism_model` class.
